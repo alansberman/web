@@ -1,0 +1,61 @@
+/* Heavily adapted from http://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive_js*/
+
+#gallery {
+	padding-left: 50px;
+	padding-right: 150px;
+	padding-bottom: 100px;
+	display: inline-block;
+}
+
+#painting {
+	float:left;
+	margin-top: 50px;
+}
+.modal{
+	padding-top:100px;
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    background-color: rgba(0,0,0,0.9);
+    display: none;
+}
+.modal-content {
+    margin-left: 300px;
+    margin-right: 300px;
+    display: block;
+    width: 50%;
+	height: 80%;
+	
+
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+#painting img {
+	width: 400px;
+	border: 1px solid #ccc;
+	height: 300px;
+}
+
+#painting img:hover{
+	border: 1px solid #777;
+	cursor: pointer;
+}
+
+

@@ -1,0 +1,160 @@
+html, body {
+    background-color: Snow;
+    margin:0;
+    padding:0;
+    height:100%;
+}
+header {
+	width: 100%;
+	background-color:#000000;
+    color:white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align:center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+img {
+	float: left;
+	height: 100px;
+	width: 100px;
+	margin-right: 50px;
+}
+#space {
+	padding-top:80px;
+	padding-bottom:80px;
+}
+p {
+	margin-right: 150px;
+	text-align: justify;
+	font-size: 14px;
+	font-family: "Verdana", sans-serif;
+}
+
+#content {
+	padding-top: 50px;
+	display: inline;
+    position: absolute;
+    padding-left: 150px;
+}
+
+.segment {
+	float: left;
+	display:inline;
+	padding-bottom: 50px;
+}
+
+#menubar {
+	z-index:1;
+	display:inline-block;
+	background-color:#999999;
+	margin: 0 0 lem 0;
+	padding: 0;
+	line-height:30px;
+    width:100%;
+    text-align:center;
+    font-size: 15px;
+}
+
+#menubar ul {
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+    list-style-type: none;
+    margin: 0;
+    text-align:center;
+	margin: 0 auto;
+	padding: 0;
+    overflow: hidden;
+    background-color: #1a1a1a;
+}
+
+#selected {
+	background-color: #595959;
+
+}
+
+#menubar li {
+    display: table-cell;
+	width: auto;
+	text-align: center;
+    font-family: "Verdana", sans-serif;
+}
+
+#menubar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#menubar li a:hover {
+    background-color: #333333;
+    
+    color: White;
+}
+
+
+
+
+#menubar a:link {
+	text-decoration: none;
+	color: DimGray;
+}
+
+
+#menubar a:visited {
+    color: DimGray;
+}
+
+#no {
+	padding-top: 40px;
+	padding-left: 10px;
+	font-size: 18px;
+	font-family: "Verdana", sans-serif;
+	color: black;
+}
+
+#maillink {
+	padding-top:40px;
+	float:left;
+}
+#maillink a{
+	
+	padding-left: 5px;
+	font-size: 18px;
+	font-family: "Verdana", sans-serif;
+
+}
+
+#sub-header {
+	font-weight: bold;
+	font-size: 50px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: Gray;
+	padding-bottom: 20px;	
+}
+#man img {
+	padding-left: 200px;	
+	width:50%;
+	height:80%;
+}
+#sub-sub-header {
+	font-weight: bold;
+
+	font-size: 20px;
+	font-family: "Verdana", sans-serif;
+	padding-left: 45px;
+	color: Gray;
+}
+#sub-sub-sub-header {
+	font-weight: bold;
+	float: left;
+	font-size: 18px;
+	font-family: "Verdana", sans-serif;
+	padding-left: 48px;
+	color: Gray;
+}
+
+

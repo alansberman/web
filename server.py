@@ -21,6 +21,11 @@ def contact():
 def research():
 	return render_template("research.html")
 
+
+@app.route("/cv")
+def cv():
+	return render_template("cv.html")
+
 @app.route("/interests")
 def interests():
 	return render_template("interests.html")

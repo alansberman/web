@@ -120,6 +120,23 @@ p {
 	color: black;
 }
 
+#github {
+	padding-top: 40px;
+	padding-left: 10px;
+	font-size: 18px;
+	font-family: "Verdana", sans-serif;
+	color: black;
+}
+
+
+#linkedin {
+	padding-top: 40px;
+	padding-left: 10px;
+	font-size: 18px;
+	font-family: "Verdana", sans-serif;
+	color: black;
+}
+
 #maillink {
 	padding-top:40px;
 	float:left;
@@ -140,7 +157,7 @@ p {
 	padding-bottom: 20px;	
 }
 #man img {
-	padding-left: 200px;	
+	padding-left: 0px;	
 	width:50%;
 	height:80%;
 }

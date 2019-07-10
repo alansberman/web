@@ -1,39 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html class="h-100">
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Research</title>
-    <link rel="stylesheet" href="/static/vendor/jquery-ui-1.11.4/jquery-ui.min.css">
-    <link rel="stylesheet" href="/static/vendor/font-awesome.min.css">
-    <link rel="stylesheet" href="/static/vendor/jquery.alt-checkbox.css">
-    <link rel="stylesheet" href="/static/vendor/jquery.alt-checkbox.icon-font.css">
-    <link rel="stylesheet" href="/static/css/home.css">
+    <title>Alan Berman</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/d107bd8c1c.js"></script>
+    <link rel="stylesheet" href="/static/css/home.css"> 
 </head>
-<body>
-	<header>
-		<h1>Alan Berman</h1>
-	</header>
-	<div id="menubar">
-		<div id="center">
-		<ul>
-			<li><a href="/" class="active">Home</a></li>
-			<li><a href="/about" class="active">About</a></li>
-			<li><a href="/cv" class="active">Curriculum Vitae</a></li>
-			<li><a href="/research" class="active">Research</a></li>
-			<li><a href="/interests" class="active">Interests</a></li>
-			<li><a href="/contact" class="active">Contact</a></li>
-		</ul>
-		</div>
-	</div>
-	
-	<div id="content">
-		<div id="section">
-			<div id="sub-header">Research</div>
-				<p>	
-					Ayylmao
-				</p>
-		</div>
-	</div>
-		
+<body class="h-100">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand mb-0 h1" href="/">Alan Berman</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item  d-inline-block">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item  d-inline-block">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+      <li class="nav-item active  d-inline-block">
+        <a class="nav-link" href="/research">Research</a>
+      </li>
+      <li class="nav-item d-inline-block">
+        <a class="nav-link" href="/cv">CV</a>
+      </li>
+    </ul>
+  </div>
+  <div class="navbar-collapse collapse w-100 order-3 dual-collapse2 ">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item mx-3">
+        <a  href="mailto:alan.berman.92@gmail.com">
+        <i class="fa fa-envelope-o"></i><a/>
+      </li>
+      <li class="nav-item mx-3">
+        <a href="https://github.com/alansberman/">
+        <i class="fab fa-github" ></i><a/>
+      </li>
+      <li class="nav-item mx-3">
+        <a  href="https://www.linkedin.com/in/alan-berman-24a59aa6/">
+        <i class="fab fa-linkedin"></i></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+  <div class="container-fluid flex-fill d-flex">
+	<div class="row flex-fill">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">M.Sc. - <em>Generative Adversarial Networks for Fine Art Generation</em> </h5>
+          <p class="card-text"><em>Abstract - </em>Generative Adversarial Networks (GANs) have become the <em>de facto</em> tool for image generation.
+          Through the use of deep convolutional networks, such as in the landmark Deep Convolutional GAN (DCGAN) and improvements to GAN training via the 
+          Wasserstein metric and other training tips, GANs can achieve impressive results in image super-resolution, restoration and generation. However, these results often do not correlate 
+          with quantitative evaluations of GANs, and evaluation of GANs remains an unsolved problem. GANs have recently been applied to the domain of fine art generation,
+            which presents technical, evaluative and even philosophical challenges, as well as an integration with the field of computational creativity. This work provides a
+            thorough quantitative analysis of DCGAN, the state-of-the-art Wasserstein-based GANs, conditional versions thereof, and the GANHacks set of GAN training strategies,
+              through standard quantitative metrics on benchmark data sets. The GANs are trained on the prominent WikiArt data set to determine whether improved GAN performance on 
+              traditional data sets translates to improved image quality when trained on art data.  The <em>Holistic Evaluation of Art</em> (HEART) is proposed as a method of qualitative 
+              evaluation of GAN-generated visual art. </p><a href="/msc">Read more</a><br>
+            <br>
+          <div class="text-center">
+            <img class="img-responsive" src="../static/art/wgangcondmirror.jpg" style="width: 50%; height: 50%; display: center;">
+            <div class="caption">
+              <p>64x64 Conditional Wasserstein GAN with gradient penalty trained on the Wikiart data set</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Honours - <em>Using Machine Learning to Predict Performance and Attrition of Front-Line Workers</em></h5>
+          <p class="card-text"><em>Abstract - </em>This paper presents the exploration of a front-line worker dataset, and the development of models for predicting worker, 
+          primarily community health worker, attrition and performance. Front-line workers are not professionals, but volunteers trained to visit their community to improve 
+          health care and developmental services in resource-constrained environments. Dimagi, a for-profit social enterprise, desires to gain insights into attrition and performance 
+          problems in this domain. Their dataset is explored and expanded upon using Python and its pandas library. Following this, Stochastic Gradient Descent and LASSO models are trained 
+          in the prediction of the values of attrition- and performance-based attributes.
+          It is found that the models are able to predict front-line worker attrition and performance with 87% and 77% accuracy respectively.</p>
+          
+        </div>
+      </div>
+    </div>
+    </div>
+  	</div>
+</div>
 </body>
+
+
+<script>
+function showOrHide(toShow,hide,hidetwo) {
+ var show = document.getElementById(toShow);
+ var hideOne = document.getElementById(hide);
+ var hideTwo = document.getElementById(hidetwo);
+  if (show.style.display === "none") {
+    show.style.display = "block";
+  }
+  else {
+	  show.style.display='none';
+  } 
+  hideOne.style.display='none';
+  hideTwo.style.display='none';
+}
+</script>
+
 </html>

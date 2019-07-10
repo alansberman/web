@@ -1,4 +1,11 @@
-html, body {
+/* 
+img {
+	width: 200px;
+	height: 200px;
+}
+ */
+
+/* html, body {
     background-color: Snow;
     margin:0;
     padding:0;
@@ -48,7 +55,7 @@ p {
 #menubar {
 	z-index:1;
 	display:inline-block;
-	background-color:LightSlateGray;
+	background-color:#333333;
 	margin: 0 0 lem 0;
 	padding: 0;
 	line-height:30px;
@@ -93,7 +100,7 @@ p {
 }
 
 /* Change the link color to #111 (black) on hover */
-#menubar li a:hover {
+/* #menubar li a:hover {
     background-color: #333333;
     color: White;
 }
@@ -110,7 +117,7 @@ p {
 
 
 #menubar a:visited {
-    color: LightSlateGray;
+    color: steelblue;
 }
 
 #no {
@@ -182,4 +189,4 @@ p {
 #cv {
 	width: 100%;
 	height: 100%;
-}
+} */ */

@@ -2,40 +2,104 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Curriculum Vitae</title>
-    <link rel="stylesheet" href="/static/vendor/jquery-ui-1.11.4/jquery-ui.min.css">
-    <link rel="stylesheet" href="/static/vendor/font-awesome.min.css">
-    <link rel="stylesheet" href="/static/vendor/jquery.alt-checkbox.css">
-    <link rel="stylesheet" href="/static/vendor/jquery.alt-checkbox.icon-font.css">
-    <link rel="stylesheet" href="/static/css/home.css">
+    <title>Alan Berman</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/d107bd8c1c.js"></script>
+    <!-- <link rel="stylesheet" href="/static/css/home.css"> -->
 </head>
 <body>
-	<header>
-		<h1>Alan Berman</h1>
-	</header>
-	<div id="menubar">
-		<div id="center">
-		<ul>
-            <li><a href="/" class="active">Home</a></li>
-			<li><a href="/about" class="active">About</a></li>
-			<li><a href="/cv" class="active">Curriculum Vitae</a></li>
-			<li><a href="/research" class="active">Research</a></li>
-			<li><a href="/interests" class="active">Interests</a></li>
-			<li><a href="/contact" class="active">Contact</a></li>
-		</ul>
-		</div>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand mb-0 h1" href="/">Alan Berman</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item  d-inline-block">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item  d-inline-block">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+      <li class="nav-item  d-inline-block">
+        <a class="nav-link" href="/research">Research</a>
+      </li>
+	  <li class="nav-item active d-inline-block">
+        <a class="nav-link" href="/cv">CV</a>
+      </li>
+    </ul>
+  </div>
+  <div class="navbar-collapse collapse w-100 order-3 dual-collapse2 ">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item mx-3">
+        <a  href="mailto:alan.berman.92@gmail.com">
+        <i class="fa fa-envelope-o"></i></a>
+      </li>
+      <li class="nav-item mx-3">
+        <a href="https://github.com/alansberman/">
+        <i class="fab fa-github" ></i></a>
+      </li>
+      <li class="nav-item mx-3">
+        <a  href="https://www.linkedin.com/in/alan-berman-24a59aa6/">
+        <i class="fab fa-linkedin"></i></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+ <div class="container-fluid flex-fill d-flex">
+	<div class="row flex-fill"> 
+		<div class="card flex-fill">
+			<h5 class="card-header">Education</h5>
+	<div class="card-body">
+		<div class="card-title">University of Cape Town (UCT)</div>
+		<p class="card-text">2017-2019 | Master of Science, Computer Science (CS) - <em>Generative Adversarial Networks for Fine Art Generation</em> </p>
+		<p class="card-text">2014-2016 | Bachelor of Science (Honours) [First Class], CS and Spanish, with distinction in Spanish and the degree with distinction </p>
+		<p class="card-text">2011-2013 | Bachelor of Arts, Philosophy and Business French, with distinction in Business French </p>
+	<div class="card-title">University of California, Merced </div>
+		<p class="card-text">2014 | Semester Study Abroad [3.7 GPA] </p>
 	</div>
-	
-	<div id="content">
-		<div id="section">
-			<div id="sub-header">Curriculum Vitae</div>
-                <div id='cv'>
-                    <object>
-	    		        <embed src="../static/CV_Alan_Berman.pdf" height="100%" width="100%"  type="application/pdf">
-                    </object>
-                </div>	
-		</div>
+	<h5 class="card-header">University Achievements</h5>
+	<div class="card-body">
+		<p class="card-text">2017-2019 | CSIR-DST Inter-Programme Postgraduate Bursary  </p>
+		<p class="card-text">2018 | General GRE: 322 (165 Verbal, 157 Quantitative)</p>
+		<p class="card-text">2016 | National Research Foundation Scarce Skills Honours Bursary </p>
+		<p class="card-text">2016 | UCT Council Honours Merit Scholarship </p>
+		<p class="card-text">2014 | UCT Science Faculty Scholarship </p>
+		<p class="card-text">2013 | UCT Law Entrance Scholarship (declined) </p>
+		<p class="card-text">2012 | UCT Humanities Faculty Scholarship</p>
 	</div>
-		
+	<h5 class="card-header">Professional Experience</h5>
+	<div class="card-body">
+		 <ul class="list-group list-group-flush">
+			<li class="list-group-item">2019 | CSC3002F Lecturer | UCT CS Department </li>
+    		<li class="list-group-item">2018 | CSC1015F Lecturer | UCT CS Department </li>
+    		<li class="list-group-item">2017 | CSC1015F Teaching Assistant | UCT CS Department </li>
+    		<li class="list-group-item">2015 | Ruby on Rails Developer (Intern) | SimplePay</li>
+			<li class="list-group-item">2014, 2015 | CSC1015F Tutor | UCT CS Department </li>
+  		</ul>
+	</div>
+	<h5 class="card-header">Extracurricular Activities</h5>
+	<div class="card-body">
+		 <ul class="list-group list-group-flush">
+			<li class="list-group-item">2017 - 2018 | <em>Centre for Artificial Intelligence Research</em> internship mentor </li>
+    		<li class="list-group-item">2015 | <em>Investec IT Explore Coding Challenge</em> participant </li>
+   		</ul>
+	</div>
+	<h5 class="card-header">Skills</h5>
+	<div class="card-body">
+		 <ul class="list-group list-group-flush">
+			<li class="list-group-item">Programming languages: Python, Java, C++, Ruby</li>
+			<li class="list-group-item">Frameworks: pandas, scikit-learn, PyTorch </li>
+			<li class="list-group-item">git, html5, css, bootstrap </li>
+    		<li class="list-group-item">English (native fluency) </li>
+    		<li class="list-group-item">Afrikaans (advanced fluency)</li>
+    		<li class="list-group-item">Portuguese (advanced fluency)</li>
+			<li class="list-group-item">Spanish (advanced fluency) </li>
+			<li class="list-group-item">French (working fluency) </li>
+			<li class="list-group-item">Italian (basic fluency) </li>
+			
+  		</ul>
+	</div>
+</div>
 </body>
 </html>
